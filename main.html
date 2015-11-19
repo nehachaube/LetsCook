@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Let's Cook</title>
+  <!-- <script src="./lib/angular/angular.min.js"></script> -->
+  <!-- <script src="./js/controllers.js"></script> -->
+  <link rel="stylesheet" href="./css/styles.css">
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+  <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+
+<body>
+
+  <ul class="nav nav-tabs nav-justified">
+    <li style="font-family: Ubuntu" class= "navtext active" role="presentation"><a href="#">Let's Cook </a></li>
+    <li style="font-family: Ubuntu" class= "navtext" role="presentation"><a href="#">Most Viewed Recipes</a></li>
+    <li style="font-family: Ubuntu" class= "navtext" role="presentation"><a href="#">Latest Recipes</a></li>
+    <li><input type="text" class="form-control" placeholder="Search"></li>
+  </ul>
+
+<div class = "row">
+
+  <div id="checkboxes" class="col-sm-3">
+    <h2 style="font-family: Ubuntu text-align:left" id="heading"> Filters </h2>
+
+    <div class="checkbox">
+      <label><input type="checkbox" value="">Appetizers</label>
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox" value="">Entrees</label>
+    </div>
+    <div class="checkbox disabled">
+      <label><input type="checkbox" value="">Desserts</label>
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox" value="">Beverages</label>
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox" value="">Salad</label>
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox" value="">Soups</label>
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox" value="">Allergy</label>
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox" value="">Vegetable</label>
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox" value="">World Cuisines</label>
+    </div>
+
+    <button style="font-family: Ubuntu" id="search" type="button" class="btn btn-sm text-center">Search</button>
+
+  </div>
+
+  <div class="col-sm-9 text-center">
+    <div class="row" id="ourfavorites">
+      <h2 style="font-family: Ubuntu" id="heading"> Our Favorites </h2>
+      <div class= "col-md-4 text-center">
+          <h4 style="font-family: Lora"> Chicken Torta </h4>
+          <img class="homeimages" src="./images/chicken torta.jpg">
+          <h6 style="font-family: Lora"> A delicious Mexican cuisine with a variety of meats </h6>
+      </div>
+      <div class= "col-md-4 text-center">
+          <h4 style="font-family: Lora"> Chocolate Chip Cookies </h4>
+          <img class="homeimages" src="./images/cookies.jpg">
+          <h6 style="font-family: Lora"> A tasty treat for the entire family </h6>
+      </div>
+      <div class= "col-md-4 text-center">
+          <h4 style="font-family: Lora"> Filet Mignon</h4>
+          <img class="homeimages" src="./images/omaha-filet-mignon.jpg">
+          <h6 style="font-family: Lora"> A luxurious pork cuisine served best with red wine </h6>
+
+      </div>
+    </div>
+
+    <div class="row" id="toprated">
+      <h2 style="font-family: Ubuntu" id="heading"> Top Rated Recipes </h2>
+      <div class= "col-md-4 text-center">
+          <h4 style="font-family: Lora"> Mango Lassi </h4>
+          <img class="homeimages" src="./images/lassi.jpg">
+          <h6 style="font-family: Lora"> A rich Southeast Asian beverage  </h6>
+
+      </div>
+      <div class= "col-md-4 text-center">
+          <h4 style="font-family: Lora"> Ceasar Salad </h4>
+          <img class="homeimages" src="./images/salad.jpg">
+          <h6 style="font-family: Lora"> The perfect combination of a healthy, delicious and quick disn </h6>
+
+      </div>
+      <div class= "col-md-4 text-center">
+          <h4 style="font-family: Lora"> Teriyaki-Steak-Strifry </h4>
+          <img class="homeimages" src="./images/Teriyaki-Steak-Stirfry-Pan.jpg">
+          <h6 style="font-family: Lora"> The perfect meat-lovers and veggie-lovers delight </h6>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</div>
+
+ <!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="../../dist/js/bootstrap.min.js"></script>
+</body>
+</html>
