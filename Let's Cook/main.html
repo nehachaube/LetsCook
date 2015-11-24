@@ -56,7 +56,9 @@
       <label><input type="checkbox" value="">World Cuisines</label>
     </div>
 
+    <button data-toggle="modal" data-target="#MoreOptions" style="font-family: Ubuntu" id="more" type="button" class="btn btn-sm text-center">More Options</button>
     <button style="font-family: Ubuntu" id="search" type="button" class="btn btn-sm text-center">Search</button>
+
 
   </div>
 
@@ -104,11 +106,93 @@
   </div>
 </div>
 
+</div>
 
+<!-- Modal -->
+<div class="modal fade" id="MoreOptions" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h3 style="color:#8B0000; font-family:Ubuntu"> Select Specific Options</h3>
+      </div>
+
+      <div class="modal-body">
+
+        <h4 class="options" style="color:#8B0000; font-family: Lora"> Appetizers</h4>
+        <div class="row text-center">
+          <div class="radio-inline">
+            <label><input type="radio" value="">Calamari</label>
+          </div>
+          <div class="radio-inline">
+            <label><input type="radio" value="">Wings</label>
+          </div>
+        </div>
+
+        <h4 class="options" style="color:#8B0000; font-family: Lora"> Entrees</h4>
+        <div class="row text-center">
+          <div class="radio-inline">
+            <label><input type="radio" value="">Chicken</label>
+          </div>
+          <div class="radio-inline">
+            <label><input type="radio" value="">Seafood</label>
+          </div>
+          <div class="radio-inline">
+            <label><input type="radio" value="">Beef</label>
+          </div>
+        </div>
+
+        <h4 class="options" style="color:#8B0000; font-family: Lora"> Desserts </h4>
+        <div class="row text-center">
+          <div class="radio-inline">
+            <label><input type="radio" value="">Cake</label>
+          </div>
+          <div class="radio-inline">
+            <label><input type="radio" value="">Brownie</label>
+          </div>
+          <div class="radio-inline">
+            <label><input type="radio" value="">Pastries</label>
+          </div>
+        </div>
+
+        <h4 class="options" style="color:#8B0000; font-family: Lora"> Beverages </h4>
+        <div class="row text-center">
+          <div class="radio-inline">
+            <label><input type="radio" value="">Alcoholic</label>
+          </div>
+          <div class="radio-inline">
+            <label><input type="radio" value="">Non-Alcoholic</label>
+          </div>
+        </div>
+
+        <h4 class="options" style="color:#8B0000; font-family: Lora"> Allergy </h4>
+        <div class="row text-center">
+          <div class="radio-inline">
+            <label><input type="radio" value="">Non-Lactose</label>
+          </div>
+          <div class="radio-inline">
+            <label><input type="radio" value="">Peanut free</label>
+          </div>
+          <div class="radio-inline">
+            <label><input type="radio" value=""> Egg free </label>
+          </div>
+          <div class="radio-inline">
+            <label><input type="radio" value=""> Nut free </label>
+          </div>
+        </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
  <!-- Placed at the end of the document so the pages load faster -->
 <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-<script src="../../dist/js/bootstrap.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </body>
 </html>

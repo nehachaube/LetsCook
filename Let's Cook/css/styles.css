@@ -85,7 +85,16 @@ img:hover {
   color: #FFFFFF;
 }
 
+#more {
+  background-color: #8B0000;
+  color: #FFFFFF;
+}
+
 #logo {
   height: 50px;
   width: 50px;
+}
+
+.options {
+  margin-top: 20px;
 }
