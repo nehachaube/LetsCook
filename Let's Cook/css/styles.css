@@ -98,3 +98,9 @@ img:hover {
 .options {
   margin-top: 20px;
 }
+
+#searchI {
+  margin-top: 10px;
+  background-color: #8B0000;
+  color: #FFFFFF;
+}
